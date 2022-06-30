@@ -8,16 +8,9 @@
 @import './partials/footer';
 
 // VIEWS
+@import './'
 @import './views/sobremi';
 @import './views/planesentrenamiento';
 @import './views/blog';
+@import './views/contacto';
 
-.cuerpo4 {
-   height: 1000px;
-   margin: 0;
-   color: black;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-evenly;
-   align-items: center;
-}

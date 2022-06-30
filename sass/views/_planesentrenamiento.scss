@@ -1,0 +1,65 @@
+.cuerpo3 {
+    height: 800px;
+    margin: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .cuerpo-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        align-content: space-around;
+
+        .cuerpo__seccionplanes {
+            display: flex;
+
+            .cuerpo__seccionlista {
+                display: flex;
+                border-style: solid 10px black;
+                
+                .cuerpo__lista {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    list-style-type: none;
+                    border: 6px solid black;
+                    border-radius: 58px;
+                    background-image: -webkit-linear-gradient(top, #a4691c 0%, #cb8223 50%, #753814 100%);
+                    background-image: linear-gradient(to bottom, #a4691c 0%, #cb8223 50%, #753814 100%);
+                    color: rgb(255, 255, 255) ;
+                
+                    .cuerpo__seccionplanes--img {
+                        display: flex;
+                        height: 400px;
+                        width: 350px;
+                        border-radius: 50px 50px 0px 0px;
+                    }
+                
+                    .cuerpo__seccionplanes--titulo {
+                        display: flex;
+                        margin-top: 1rem;
+                    }
+
+                    .cuerpo__seccionplanes--parrafo {
+                        display: flex;
+                        margin-right: 10cm;
+                        width: 260px;
+                        height: auto;
+                        margin: 10px;
+                    }
+
+                }
+
+            }
+
+        
+        }
+
+    }
+}

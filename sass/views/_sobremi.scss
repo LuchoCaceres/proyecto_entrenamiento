@@ -1,0 +1,12 @@
+.cuerpo__sobremi {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-top: 100px;
+    color: black;
+
+    .cuerpo__sobremi--informacion {
+        margin-top: 5px;
+    }
+}

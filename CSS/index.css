@@ -254,10 +254,6 @@ input, textarea {
     color: black;
 }
 
-.cuerpo__sobremi--informacion {
-    margin-top: 5px;
-}
-
 .cuerpo__encabezado {
     
 }
@@ -323,6 +319,10 @@ input, textarea {
     border-radius: 50px 50px 0px 0px;
 }
 
+.cuerpo__seccionplanes--titulo {
+    display: flex;
+    margin-top: 1rem;
+}
 
 .cuerpo__seccionplanes--parrafo {
     display: flex;
@@ -332,10 +332,6 @@ input, textarea {
     margin: 10px;
 }
 
-.cuerpo__seccionplanes--titulo {
-    display: flex;
-    margin-top: 1rem;
-}
 
 
 @media (max-width: 980px) {

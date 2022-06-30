@@ -144,18 +144,3 @@
   .cuerpo2 .cuerpo2__subtitulo {
     padding: 4rem;
     margin: 4rem; }
-
-.cuerpo2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: end;
-  margin-top: 100px; }
-  .cuerpo2 .cuerpo2__titulo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 4rem; }
-  .cuerpo2 .cuerpo2__subtitulo {
-    padding: 4rem;
-    margin: 4rem; }

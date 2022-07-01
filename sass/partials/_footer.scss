@@ -38,4 +38,37 @@
             }
         }
     }
+
+    .piedepagina__div2 {
+    flex-direction: column;
+
+        .piedepagina__mensaje {
+        text-align: center;
+        padding-bottom: 1rem;
+      
+        }
+    
+        .piedepagina__formulario div {
+        display: flex;
+        flex-direction: column;
+        
+        .btn {
+            background-color: #a8848471;
+            border-radius: 3rem;
+        }
+        
+        .btn-enviar {
+            @extend .btn;
+            color: black;
+        }
+        
+        .btn-cancelar {
+            @extend .btn;
+            color: red;
+        }
+
+        }
+
+    }
+
 }

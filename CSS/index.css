@@ -451,41 +451,6 @@ input, textarea {
 
 
 
-/*SOBRE MI*/
-
-.cuerpo__sobremi {
-    margin-right: ;
-}
-
-.cuerpo__sobremi--titulo {
-
-}
-
-.cuerpo__sobremi--informacion {
-
-}
-
-/*CONTACTO*/
-
-.cuerpo2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: end;
-    margin-top: 100px;
-}
-
-.cuerpo2__titulo {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 4rem;
-}
-
-.cuerpo2__subtitulo {
-    padding: 4rem;
-    margin: 4rem;
-}
 
 
 

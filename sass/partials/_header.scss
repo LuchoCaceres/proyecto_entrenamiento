@@ -30,10 +30,10 @@
     }
 
     .menu__item {
-        display: flex;
+        
         justify-content:center;
         align-items: center;
-        flex-direction: column;
+        
 
         .menu__link:hover {
             background-color: black;

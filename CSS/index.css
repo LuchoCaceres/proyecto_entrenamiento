@@ -28,7 +28,7 @@ body {
 .menu__item {
     list-style-type: none;
     padding-top: 0cm;
-    display: flex;
+    display: flex; 
 }
 
 .menu__fotoperfil {
@@ -47,12 +47,14 @@ body {
 }
 
 .menu__link:hover {
+    display: flex;
     background-color: black;
     transition: background-color 2s;
     
 }
 
 .menu__enlace {
+    
     text-decoration: none;
     color: #d9d9d9;
     font-weight: bold;
@@ -170,7 +172,7 @@ input, textarea {
 
 
 
-.cuerpo__titulo--t1 {
+.cuerpo__titulo- {
     text-align: center;
     border: 5px solid #000000;
     background-color: #e5cfb6c7;
@@ -181,7 +183,7 @@ input, textarea {
 
 
 
-.cuerpo__titulo2--t2 {
+.cuerpo__titulo2 {
    
     border: 5px solid #000000;
     font-size: 20px;
@@ -192,7 +194,7 @@ input, textarea {
  
 }
 
-.cuerpo__titulo3--t3 {
+.cuerpo__titulo3 {
     
     border: 5px solid #000000;
     background-color: #e5cfb6c7;
@@ -203,7 +205,7 @@ input, textarea {
    
 }
 
-.cuerpo__titulo4--t4 {
+.cuerpo__titulo4 {
     
     border: 5px solid #000000;
     background-color: #e5cfb6c7;
@@ -215,7 +217,7 @@ input, textarea {
     
 }
 
-.cuerpo__titulo5--t5 {
+.cuerpo__titulo5 {
     
     border: 5px solid #000000;
     background-color: #e5cfb6c7;

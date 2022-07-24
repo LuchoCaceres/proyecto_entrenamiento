@@ -1,0 +1,81 @@
+@media (min-width: 320px) and (max-width: 600px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+        height: 25rem;
+        justify-content: center;
+        
+    }
+
+
+    .menu__fotoynombreperfil {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu__fotoperfil {
+        display: flex;
+        margin-bottom: 2rem;
+        margin-top: 0;
+        
+    }
+
+    .menu__nombreperfil {
+        display: none;
+    }
+
+    .menu__item {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .cuerpo {
+    
+        
+        
+    }
+
+    
+    .cuerpo1 {
+        display: flex;
+        color:#000000d3;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    .cuerpo__titulos {
+        display: grid;
+        grid-template-areas:
+        "titulo titulo titulo"
+        "titulo2 titulo2 titulo2"
+        "titulo3 titulo3 titulo3"
+        "titulo4 titulo4 titulo4"
+        "titulo5 titulo5 titulo5";
+        grid-template-columns: 30vw 1fr 20vw;
+        grid-template-rows: 20vh 200px 200px 20vh;
+
+    }
+
+
+
+    .piedepagina {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .piedepagina__logo {
+       display: none;
+    }
+
+    h4 {
+        display: none;
+    }
+
+    .piedepagina__formulario {
+        display: none;
+    }
+}

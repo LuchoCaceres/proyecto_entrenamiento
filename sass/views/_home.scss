@@ -1,76 +1,106 @@
 .cuerpo {
     height: 800px;
     color:aliceblue;
-    margin: 0;
-
-   .cuerpo1 {
-        @include flex(column, center, center);
-       margin-top: 100px;
-       color:#000000;
-   
-            .cuerpo__titulos {
-            display: grid;
-            grid-template-areas:
-            "titulo titulo titulo"
-            "titulo2 titulo2 titulo4"
-            "titulo3 titulo3 titulo4"
-            "titulo5 titulo5 titulo5";
-            grid-template-columns: 30vw 1fr 20vw;
-            grid-template-rows: 20vh 200px 200px 20vh;
-            
-
-        }
     
-        .cuerpo__titulo {
-                text-align: center;
-                border: 5px solid #000000;
-                background-color: #e5cfb6c7 ;
-                font-size: 20px;
-                padding: 4rem;
-                grid-area: titulo;
-        }
-            
-            
-            
-        .cuerpo__titulo2 {
-                border: 5px solid #000000;
-                font-size: 20px;
-                background-color: aliceblue;   
-                padding: 3rem;
-                text-align: center;
-                grid-area: titulo2;
-            
-        }
-            
-        .cuerpo__titulo3 {
-                border: 5px solid #000000;
-                background-color: aliceblue;
-                padding: 3rem;
-                font-size: 20px;
-                text-align: center;
-                grid-area: titulo3;
-                
-        }
-            
-        .cuerpo__titulo4 {
-                border: 5px solid #000000;
-                background-color: #e5cfb6c7;
-                padding: 3rem;
-                font-size: 20px;
-                text-align: center;
-                grid-area: titulo4;
-                overflow: auto;
-                
-        }
-            
-        .cuerpo__titulo5 { 
-                border: 5px solid #000000;
-                background-color: #e5cfb6c7;
-                padding: 3rem;
-                font-size: 20px;
-                text-align: center;
-                grid-area: titulo5;
-        }
+        .cuerpo1 {
+                display: flex;
+                color:#000000d3;
+
+                justify-content: center;
+                margin-top: 100px;
+
+                .cuerpo__titulos {
+                        display: grid;
+                        grid-template-areas:
+                        "titulo titulo titulo"
+                        "titulo2 titulo2 titulo4"
+                        "titulo3 titulo3 titulo4"
+                        "titulo5 titulo5 titulo5";
+                        grid-template-columns: 30vw 1fr 20vw;
+                        grid-template-rows: 20vh 200px 200px 20vh;
  
+                }
+        
+                .cuerpo__titulo {
+                        text-align: center;
+                        border: 5px solid #000000;
+                        background-color: #e5cfb6c7 ;
+                        font-size: 20px;
+                        padding: 4rem;
+                        grid-area: titulo;
+                        margin: 0.5rem;                      
+                }
+
+                .cuerpo__titulo:hover { 
+                        background-color: #ee9f44c7;
+                        transition: 1s;
+                        transform: scale(1,1.1);
+                }
+                
+                
+                .cuerpo__titulo2 {
+                        border: 5px solid #000000;
+                        font-size: 20px;
+                        background-color: aliceblue;   
+                        padding: 3rem;
+                        text-align: center;
+                        grid-area: titulo2;
+                        margin: 0.5rem;
+                        margin-top: 2.5rem;
+                }
+                
+                .cuerpo__titulo2:hover { 
+                        background-color: #ee9f44c7;
+                        transition: 1s;
+                        transform: scale(1,1.1);
+                }
+
+                .cuerpo__titulo3 {
+                        border: 5px solid #000000;
+                        background-color: aliceblue;
+                        padding: 3rem;
+                        font-size: 20px;
+                        text-align: center;
+                        grid-area: titulo3;
+                        margin: 0.5rem;
+                }
+
+                .cuerpo__titulo3:hover { 
+                        background-color: #ee9f44c7;
+                        transition: 1s;
+                        transform: scale(1,1.1);
+                }
+                
+                .cuerpo__titulo4 {
+                        border: 5px solid #000000;
+                        background-color: #e5cfb6c7;
+                        padding: 3rem;
+                        font-size: 20px;
+                        grid-area: titulo4;
+                        margin: 0.5rem;
+                        margin-top: 2.5rem;
+                }
+
+                .cuerpo__titulo4:hover { 
+                        background-color: #ee9f44c7;
+                        transition: 1s;
+                        transform: scale(1,1.1);
+                }
+                
+                .cuerpo__titulo5 { 
+                        border: 5px solid #000000;
+                        background-color: #e5cfb6c7;
+                        padding: 3rem;
+                        font-size: 20px;
+                        text-align: center;
+                        grid-area: titulo5;
+                        margin: 0.5rem;
+                }
+                
+                .cuerpo__titulo5:hover { 
+                        background-color: #ee9f44c7;
+                        transition: 1s;
+                        transform: scale(1,1.1);
+                }
     }
 }

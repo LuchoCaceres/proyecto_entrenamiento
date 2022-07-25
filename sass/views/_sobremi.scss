@@ -1,11 +1,13 @@
 .division {
     display: flex;
     margin: 0;
-    width: 1349px;
+    height: 800px;
+
     .cuerpo {
-        height: 800px;
+    
         color:aliceblue;
         margin: 0;
+        width: 1000vh;
     
         .cuerpo__sobremi {
             display: flex;
@@ -14,17 +16,16 @@
             align-items: center;
             margin-top: 100px;
             color: black;
-            width: 900px;
             padding: 2rem;
             
 
 
         }
 
-
     }
+
     .aside {
-        width: 600px;
+        width: auto;
         background-color: #000000d3;
         color: #d9d9d9;
         height: 800px;

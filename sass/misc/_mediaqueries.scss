@@ -31,11 +31,7 @@
         flex-direction: column;
     }
 
-    .cuerpo {
-    
-        
-        
-    }
+
 
     
     .cuerpo1 {
@@ -47,17 +43,14 @@
 
     .cuerpo__titulos {
         display: grid;
-        grid-template-areas:
-        "titulo titulo titulo"
-        "titulo2 titulo2 titulo2"
-        "titulo3 titulo3 titulo3"
-        "titulo4 titulo4 titulo4"
-        "titulo5 titulo5 titulo5";
-        grid-template-columns: 30vw 1fr 20vw;
-        grid-template-rows: 20vh 200px 200px 20vh;
+      
 
-    }
+}
 
+    h3 {
+        display: flex;
+
+    }  
 
 
     .piedepagina {
@@ -67,10 +60,7 @@
         align-items: center;
     }
     
-    .piedepagina__logo {
-       display: none;
-    }
-
+ 
     h4 {
         display: none;
     }
@@ -78,4 +68,105 @@
     .piedepagina__formulario {
         display: none;
     }
+}
+
+
+
+@media (min-width: 600px) and (max-width: 950px) { 
+    .menu {
+        display: flex;
+        height: 15rem;
+        justify-content: center;
+        justify-content: space-around;
+    }
+
+
+    .menu__fotoynombreperfil {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .menu__nombreperfil {
+        color: #000000d3;
+    }
+
+    .menu__fotoperfil {
+        display: flex;
+        margin-bottom: 2rem;
+        margin-top: 0;
+        
+    }
+
+    .menu__item {
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .piedepagina {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+
+    
+    .logoyredes {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+}
+
+@media (min-width: 900px) and (max-width: 1500px) {
+    
+    .logoyredes {
+        display: flex;
+        
+        justify-content: space-around;
+
+    }
+
+}
+
+@media (min-width: 900px) and (max-width: 1150px) {
+    
+    .menu__fotoynombreperfil {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+
+
+// PLANES ENTRENAMIENTO
+
+@media (min-width: 300px) and (max-width: 1000px) {
+    .cuerpo3 {
+       height: auto;
+    }
+
+
+    .cuerpo__seccionplanes {
+        
+    }
+
+    .cuerpo__seccionlista {
+        display: flex;
+        flex-direction: column;  
+    }
+}
+
+// SOBRE MI
+
+@media (min-width: 300px) and (max-width: 1000px) {
+    
+    .division {
+
+    }
+
 }

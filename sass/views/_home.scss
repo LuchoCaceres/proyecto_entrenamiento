@@ -5,20 +5,21 @@
         .cuerpo1 {
                 display: flex;
                 color:#000000d3;
-
+                align-items: center;
                 justify-content: center;
                 margin-top: 100px;
-
+                
                 .cuerpo__titulos {
-                        display: grid;
-                        grid-template-areas:
-                        "titulo titulo titulo"
-                        "titulo2 titulo2 titulo4"
-                        "titulo3 titulo3 titulo4"
-                        "titulo5 titulo5 titulo5";
-                        grid-template-columns: 30vw 1fr 20vw;
-                        grid-template-rows: 20vh 200px 200px 20vh;
- 
+                display: grid;
+                grid-template-areas:
+                "titulo titulo titulo"
+                "titulo2 titulo2 titulo4"
+                "titulo3 titulo3 titulo4"
+                "titulo5 titulo5 titulo5";
+                grid-template-columns: 30vw 1fr 20vw;
+                grid-template-rows: 20vh 200px 200px 20vh;
+                
+
                 }
         
                 .cuerpo__titulo {

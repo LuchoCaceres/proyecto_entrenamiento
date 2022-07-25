@@ -1,7 +1,7 @@
 .menu {
   display: flex;
   padding: 1rem;
-  height: 4.5rem;
+  height: 5.5rem;
   justify-content: space-between;
   padding-right: 5rem;
   align-items: center;
@@ -9,7 +9,6 @@
   background-image: linear-gradient(to bottom, #a4691c 0%, #cb8223 50%, #753814 100%); }
   .menu .menu__fotoynombreperfil {
     display: flex;
-    flex-direction: row;
     align-items: center; }
     .menu .menu__fotoynombreperfil .menu__fotoperfil {
       border-radius: 1500px;
@@ -56,8 +55,7 @@
   .piedepagina .piedepagina__div {
     display: flex;
     align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap; }
+    flex-direction: column; }
     .piedepagina .piedepagina__div .piedepagina__redes {
       display: flex;
       border-radius: 1500px;
@@ -86,11 +84,11 @@
 .division {
   display: flex;
   margin: 0;
-  width: 1349px; }
+  height: 800px; }
   .division .cuerpo {
-    height: 800px;
     color: aliceblue;
-    margin: 0; }
+    margin: 0;
+    width: 1000vh; }
     .division .cuerpo .cuerpo__sobremi {
       display: flex;
       flex-direction: column;
@@ -98,10 +96,9 @@
       align-items: center;
       margin-top: 100px;
       color: black;
-      width: 900px;
       padding: 2rem; }
   .division .aside {
-    width: 600px;
+    width: auto;
     background-color: #000000d3;
     color: #d9d9d9;
     height: 800px;
@@ -137,7 +134,8 @@
           border-radius: 58px;
           background-image: -webkit-linear-gradient(top, #a4691c 0%, #cb8223 50%, #753814 100%);
           background-image: linear-gradient(to bottom, #a4691c 0%, #cb8223 50%, #753814 100%);
-          color: white; }
+          color: white;
+          margin: 1rem; }
           .cuerpo3 .cuerpo-3 .cuerpo__seccionplanes .cuerpo__seccionlista .cuerpo__lista .cuerpo__seccionplanes--img {
             display: flex;
             height: 400px;
@@ -193,6 +191,7 @@
   .cuerpo .cuerpo1 {
     display: flex;
     color: #000000d3;
+    align-items: center;
     justify-content: center;
     margin-top: 100px; }
     .cuerpo .cuerpo1 .cuerpo__titulos {
@@ -288,18 +287,61 @@
     justify-content: center;
     margin-top: 100px; }
   .cuerpo__titulos {
-    display: grid;
-    grid-template-areas: "titulo titulo titulo" "titulo2 titulo2 titulo2" "titulo3 titulo3 titulo3" "titulo4 titulo4 titulo4" "titulo5 titulo5 titulo5";
-    grid-template-columns: 30vw 1fr 20vw;
-    grid-template-rows: 20vh 200px 200px 20vh; }
+    display: grid; }
+  h3 {
+    display: flex; }
   .piedepagina {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; }
-  .piedepagina__logo {
-    display: none; }
   h4 {
     display: none; }
   .piedepagina__formulario {
     display: none; } }
+
+@media (min-width: 600px) and (max-width: 950px) {
+  .menu {
+    display: flex;
+    height: 15rem;
+    justify-content: center;
+    justify-content: space-around; }
+  .menu__fotoynombreperfil {
+    display: flex;
+    flex-direction: column; }
+  .menu__nombreperfil {
+    color: #000000d3; }
+  .menu__fotoperfil {
+    display: flex;
+    margin-bottom: 2rem;
+    margin-top: 0; }
+  .menu__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+  .piedepagina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around; }
+  .logoyredes {
+    display: flex;
+    flex-direction: column; } }
+
+@media (min-width: 900px) and (max-width: 1500px) {
+  .logoyredes {
+    display: flex;
+    justify-content: space-around; } }
+
+@media (min-width: 900px) and (max-width: 1150px) {
+  .menu__fotoynombreperfil {
+    display: flex;
+    flex-direction: column; } }
+
+@media (min-width: 300px) and (max-width: 1000px) {
+  .cuerpo3 {
+    height: auto; }
+  .cuerpo__seccionlista {
+    display: flex;
+    flex-direction: column; } }

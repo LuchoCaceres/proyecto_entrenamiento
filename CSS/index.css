@@ -8,17 +8,7 @@
 
 
 
-.cuerpo__titulos {
-    display: grid;
-    grid-template-areas:
-    "titulo titulo titulo"
-    "titulo2 titulo2 titulo4"
-    "titulo3 titulo3 titulo4"
-    "titulo5 titulo5 titulo5";
-    grid-template-columns: 30vw 1fr 20vw;
-    grid-template-rows: 20vh 200px 200px 20vh;
-    
-}
+
 
 
 
@@ -79,13 +69,11 @@
 }
 
 
-
-@media (min-width: 600px) and (max-width: 980px) {
-
+/* @media (min-width: 320px) and (max-width: 600px) {
     .menu {
         display: flex;
-        
-        height: 15rem;
+        flex-direction: column;
+        height: 25rem;
         justify-content: center;
         align-items: center;
         
@@ -95,13 +83,23 @@
         display: flex;
         justify-content:center;
         align-items: center;
-      
+        flex-direction: column;
     }
 
     .menu__fotoperfil {
-        margin-bottom: 1rem;
-        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-top: 0;
         
+    }
+
+    .cuerpo {
+    
+        
+        
+    }
+
+    .cuerpo1 {
+       
     }
 
     .cuerpo__titulos {
@@ -113,6 +111,9 @@
        
     }
     
+    .cuerpo__titulos section {
+     
+    }
 
     .piedepagina {
         display: flex;
@@ -128,8 +129,8 @@
     .piedepagina__formulario{
         opacity: 0;
     }
+} */
 
-}
 
 /* SOBRE MI */
 
@@ -156,48 +157,7 @@
 
 
 
-/* PLANES ENTRENAMIENTO */
 
-
-
-
-@media (max-width: 980px) {
-    .cuerpo-3 {
-        display: flex;
-        flex-direction: column;
-        
-    }
-
-    .cuerpo__seccionplanes {
-        
-    }
-
-    .cuerpo__seccionlista {
-        display: flex;
-        flex-direction: column;  
-    }
-}
-
-
-
-
-
-
-
-/* ,@media screen and (min-width: 768px) {
-    
-    .cuerpo__titulos { grid-template-columns: repeat (2, 1fr);
-    }
-} */
-
-
-
-@media screen and (max-width: 1050px) {
-    .menu__fotoynombreperfil {
-        color: white;
-        flex-direction: column;
-    }
-}
 
 
 /* MI BLOG */

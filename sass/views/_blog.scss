@@ -10,10 +10,15 @@
     .cuerpo-4 {
         display: flex;
         color: black; 
+        flex-direction: column;
+        align-items: center;
         
-        h1 {
-            
-        }
+    h1 {
+        padding-bottom: 50px;
+    }
+
+    h2 {
+        padding-bottom: 50px;
     }
 
     .carousel-inner {
@@ -23,4 +28,5 @@
         align-content: center;
         margin-bottom: 200px;
     }
+}
 }

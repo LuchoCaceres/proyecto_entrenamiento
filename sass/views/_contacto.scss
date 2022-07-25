@@ -1,21 +1,37 @@
+.cuerpo5 {
+        background-color: #000000d3;
+        height: 800px;
+
 .cuerpo2 {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: end;
-    margin-top: 100px;
-    color: black;
+    padding-top: 100px;
+    color: #d9d9d9;
+
+
  
     .cuerpo2__titulo {
        display:flex;
        flex-direction: column;
        justify-content: center;
-       margin-bottom: 4rem;
-   }
- 
+       margin-bottom: 200px; 
+       align-items: center;
+    }
+    
+    .cuerpo2__preguntasyformulario {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .cuerpo2__preguntasyformulario div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
    .cuerpo2__subtitulo {
-    padding: 4rem;
-    margin: 4rem;
- }
+   
+    }
  
  }
+}

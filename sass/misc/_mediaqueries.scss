@@ -31,7 +31,7 @@
         flex-direction: column;
     }
 
-
+    
 
     
     .cuerpo1 {
@@ -45,7 +45,7 @@
         display: grid;
       
 
-}
+    }
 
     h3 {
         display: flex;
@@ -84,11 +84,11 @@
     .menu__fotoynombreperfil {
         display: flex;
         flex-direction: column;
-
+        color: black;
     }
 
     .menu__nombreperfil {
-        color: #000000d3;
+        display: none;
     }
 
     .menu__fotoperfil {
@@ -167,6 +167,44 @@
     
     .division {
 
+    }
+
+}
+
+// CONTACTO
+
+@media (min-width: 300px) and (max-width: 950px) {
+
+    .cuerpo5 {
+        height: auto;
+    }
+
+    .cuerpo2__titulo {
+        display: flex;
+        text-align: center;
+    }
+    
+    .cuerpo2__preguntasyformulario{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    .cuerpo2__preguntasyformulario div {
+        margin-bottom: 100px;
+        
+
+    }
+
+
+
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        
     }
 
 }
